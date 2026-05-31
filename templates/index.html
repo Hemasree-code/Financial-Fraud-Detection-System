@@ -2,8 +2,38 @@
 <html>
 <head>
     <title>Financial Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Financial Fraud Detection System</h1>
+
+<div class="container">
+
+<h1>Financial Fraud Detection System</h1>
+
+<form>
+
+<label>Transaction Amount</label>
+<input type="number">
+
+<br><br>
+
+<label>Old Balance</label>
+<input type="number">
+
+<br><br>
+
+<label>New Balance</label>
+<input type="number">
+
+<br><br>
+
+<button type="submit">
+Predict Fraud
+</button>
+
+</form>
+
+</div>
+
 </body>
 </html>
